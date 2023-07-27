@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #999a9b;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-docplanner {
+            width: 250px;
+            height: 150px;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        Main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo-docplanner" src="https://www.docplanner.com/img/logo-default-group-en.svg?v=1" alt="Docplanner Group">
+            <ul>
+                <li>About us</li>
+                <li>Career</li>
+                <li>Departments</li>
+            </ul>
+        </nav>
+    </header>
+    <Main>
+        <section>
+            <h1>Making the healthcare experience more human</h1>
+            <p>We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</p>
+            <p>We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence but also to devote their time to what really matters: their patients.</p>
+        </section>
+        <section>
+            <h2>For patients</h2>
+            <p>Find a doctor, book a visit and solve any health-related doubt</p>
+        </section>
+        <section>
+            <h2>For doctors</h2>
+            <p>Save time managing visits and cut no-shows by half</p>
+        </section>
+        <section>
+            <h2>For clinics</h2>
+            <!-- Content for clinics section -->
+        </section>
+        <div>
+            <img src="https://example.com/path/to/your/image.jpg" alt="Image description">
+        </div>
+    </Main>
+</body>
+</html>
